@@ -22,7 +22,6 @@ function UsernameForm({onSubmitUsername}) {
 
   const handleSubmit = event => {
     event.preventDefault()
-    console.log(username)
     onSubmitUsername(username.current.value)
   }
 
